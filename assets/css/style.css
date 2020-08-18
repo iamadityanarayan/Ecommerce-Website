@@ -137,6 +137,7 @@ img{
     justify-content: space-around;
     align-items: center;
 }
+
 @media screen and (max-width: 768px){
     .nav{
         justify-content: space-between;
@@ -466,6 +467,11 @@ img{
 }
 
 /* ============= MEDIA QUERIES ========== */
+@media screen and (max-width: 425px){
+    .home__img{
+        width: 160px;
+    }
+}
 @media screen and (min-width: 768px){
     body{
         margin: 0;
